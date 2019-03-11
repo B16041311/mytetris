@@ -1,36 +1,21 @@
-# B16041311马睿
-
-#### Description
-{**When you're done, you can delete the content in this README and update the file with details for others getting started with your repository**}
-
-#### Software Architecture
-Software architecture description
-
-#### Installation
-
-1. xxxx
-2. xxxx
-3. xxxx
-
-#### Instructions
-
-1. xxxx
-2. xxxx
-3. xxxx
-
-#### Contribution
-
-1. Fork the project
-2. Create Feat_xxx branch
-3. Commit your code
-4. Create Pull Request
-
-
-#### Gitee Feature
-
-1. You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2. Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3. Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4. The most valuable open source project [GVP](https://gitee.com/gvp)
-5. The manual of Gitee [http://git.mydoc.io/](http://git.mydoc.io/)
-6. The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+深入分析俄罗斯方块代码与原理，学习Windows编程相关技术，按照常规的开发过程，逐步重现俄罗斯方块代码。
+按照如下要求提交至少9个版本:
+一、建立仓库，选择c++类型，来生成对应的.gitignore文件
+二、建立代码框架，并且提交到仓库
+三、加入菜单，并且提交到仓库
+四、加入方向键的控制，并且提交到仓库
+1、用向导生成项目mytetris，里面包含核心文件mytetris.cpp和mytetris.h
+2、在码云上自己的账号下以学号和姓名建立私有仓库，比如 B140416张巧 ，将该仓库共享给 wfbreezee@hotmail.com
+3、将mytetris项目提交到自己的仓库中
+4、在项目中动态添加菜单"开始游戏、结束游戏"，在WM_CREATE  中创建菜单
+5、加入对菜单的响应，在WM_COMMAND 中处理， 以messagebox显示点击了哪个菜单
+6、加入对键盘消息（4个方向键）的响应，WM_KEYDOWN中处理，以messagebox显示敲击了哪个键盘
+五、添加数据结构和算法
+1、加入对应的数据结构，常量、全局变量和函数声明定义
+2、实现头文件中声明的函数
+3、编译通过后，提交到仓库
+六、加入对WM_PAINT的响应，画背景，提交到仓库
+七、加入对WM_PAINT的响应，画NEXT，提交到仓库
+八、加入对WM_PAINT的响应，画SCORE，提交到仓库
+九、将菜单、键盘跟对应的函数对接起来，提交到仓库
+十、在消息循环中实现定时器
